@@ -33,7 +33,10 @@
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul style="margin-left: 250px" class="navbar-nav me-auto mb-2 mb-lg-0">  
+          <ul
+            style="margin-left: 250px"
+            class="navbar-nav me-auto mb-2 mb-lg-0"
+          >
             <li class="nav-item">
               <a class="nav-link" href="index.html">Home</a>
             </li>
@@ -99,7 +102,48 @@
           class="col-12 col-sm-12 col-md-1 col-lg-1"
           style="margin-top: 32px"
         >
-          <button type="button" class="btn btn-outline-primary">Enviar</button>
+          <button
+            type="button"
+            class="btn btn-primary"
+            data-bs-toggle="modal"
+            data-bs-target="#exampleModal"
+          >
+            enviar
+          </button>
+
+          <div
+            class="modal fade"
+            id="exampleModal"
+            tabindex="-1"
+            aria-labelledby="exampleModalLabel"
+            aria-hidden="true"
+          >
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h1 class="modal-title fs-5" id="exampleModalLabel">
+                    Modal title
+                  </h1>
+                  <button
+                    type="button"
+                    class="btn-close"
+                    data-bs-dismiss="modal"
+                    aria-label="Close"
+                  ></button>
+                </div>
+                <div class="modal-body">...</div>
+                <div class="modal-footer">
+                  <button
+                    type="button"
+                    class="btn btn-secondary"
+                    data-bs-dismiss="modal"
+                  >
+                    Close
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
 
         <div class="row">
