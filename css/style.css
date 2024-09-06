@@ -1,19 +1,23 @@
-.img-py{
-  width: 280px;
-  height: 237.2px;
-}
-.img-js{
+.img-js {
   margin-top: 15px;
 }
-.img-html{
- margin-top: 10px
+.img-html {
+  margin-top: 10px;
 }
-.img-css{
-  margin-top: 10px
- }
- .img-bootstrap{
-  margin-top: 10px
- }
+.img-css {
+  margin-top: 10px;
+}
+.img-bootstrap {
+  margin-top: 10px;
+}
 .button-contato {
   width: 8.6%;
 }
+.card {
+  margin-bottom: 10px;
+  height: 100%;
+}
+.card-column {
+  margin-bottom: 10px;
+}
+
