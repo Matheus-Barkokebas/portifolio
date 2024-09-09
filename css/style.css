@@ -1,17 +1,41 @@
-.img-js {
-  margin-top: 15px;
+.abas-header {
+  justify-content: end;
 }
-.img-html {
-  margin-top: 10px;
+.container-home {
+  margin-top: 20px;
+  text-align: center;
 }
-.img-css {
-  margin-top: 10px;
+.titulo-home {
+  text-align: center;
+  font-family: sans-serif;
 }
-.img-bootstrap {
-  margin-top: 10px;
+.text-home {
+  text-align: justify;
+  font-family: sans-serif;
 }
-.button-contato {
-  width: 8.6%;
+.img-home {
+  margin-top: 20px;
+}
+.footer-home {
+  margin-top: 20px;
+}
+.container-sobre {
+  margin-top: 20px;
+}
+.titulo-sobre {
+  text-align: center;
+}
+.sobre-mim {
+  font-family: sans-serif;
+  text-align: justify;
+  margin-top: 20px;
+}
+.titulo-caracteristicas {
+  text-align: center;
+  margin-top: 20px;
+}
+.row-sobre {
+  margin-top: 20px;
 }
 .card {
   margin-bottom: 10px;
@@ -20,8 +44,26 @@
 .card-column {
   margin-bottom: 10px;
 }
-.sobre-mim {
-  font-family: sans-serif;
-  text-align: justify;
+.titulo-competencia {
+  text-align: center;
   margin-top: 20px;
+}
+.row-competencia {
+  margin-top: 20px;
+}
+.botao-enviar {
+  margin-top: 32px;
+}
+.div-iframe {
+  margin-top: 20px;
+}
+.iframe-style {
+  border-radius: 20px;
+}
+.btn-contatos {
+  width: 100%;
+  margin-bottom: 10px;
+}
+.bi-contatos {
+  margin-right: 5px;
 }
