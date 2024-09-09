@@ -34,6 +34,14 @@
   text-align: center;
   margin-top: 20px;
 }
+.img-sobre{
+  height: 200px;
+  width: 200px;
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
 .row-sobre {
   margin-top: 20px;
 }
