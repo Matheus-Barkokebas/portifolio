@@ -51,6 +51,22 @@
 .row-competencia {
   margin-top: 20px;
 }
+.img-logos {
+  height: 200px;
+  width: 200px;
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+.card-title {
+  text-align: center;
+  font-family: sans-serif;
+}
+.card-text {
+  text-align: justify;
+  font-family: sans-serif;
+}
 .botao-enviar {
   margin-top: 32px;
 }
@@ -64,6 +80,6 @@
   width: 100%;
   margin-bottom: 10px;
 }
-.bi-contatos {
+.bi {
   margin-right: 5px;
 }
